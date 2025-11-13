@@ -18,7 +18,7 @@ A local Playwright MCP server is already running. Use the following connection d
 {
   "mcpServers": {
     "playwright": {
-      "url": "http://localhost:8931/mcp"
+      "url": "http://host.docker.internal:8931/mcp"
     }
   }
 }
