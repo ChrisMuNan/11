@@ -1,5 +1,6 @@
 ---
 name: playwright
+type: repo
 version: 1.0.0
 agent: CodeActAgent
 keywords: ["playwright", "webpage", "screenshot", "load test", "MCP server"]
