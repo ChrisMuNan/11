@@ -3,6 +3,11 @@ name: playwright
 version: 1.0.0
 agent: CodeActAgent
 keywords: ["playwright", "webpage", "screenshot", "load test", "MCP server"]
+triggers:
+- playwright
+- MCP server
+- 网页截图
+- 加载测试
 ---
 
 # Playwright Task Execution Guide
