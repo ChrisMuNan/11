@@ -18,7 +18,7 @@ A local Playwright MCP server is already running. Use the following connection d
 {
   "mcpServers": {
     "playwright": {
-      "url": "http://127.0.0.1:8931/mcp"
+      "url": "http://192.168.0.110:8931/mcp"
     }
   }
 }
