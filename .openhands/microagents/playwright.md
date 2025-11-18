@@ -11,6 +11,9 @@ triggers:
   - webpage screenshot
   - load test
 ---
+# Core Constraints
+- **Prohibition of Local Browser Operations**: Do not execute any local browser installation commands (e.g., `python -m playwright install` and its variants), and do not launch local Chromium instances.
+- **Mandatory MCP Dependency**: All browser operations must be completed through the local MCP server (using the configured URL) and rely on the Chromium environment provided by MCP.
 
 # Playwright Task Execution Guide
 
