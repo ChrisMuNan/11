@@ -1,3 +1,4 @@
+playwright.md
 ---
 name: playwright
 type: repo
@@ -13,7 +14,7 @@ triggers:
 
 # Playwright Task Execution Guide
 
-Connect exclusively to the local MCP server at `http://host.docker.internal:8931/mcp` using the Chromium browser provided by the MCP server (do not launch a local Chromium instance).  
+Connect exclusively to the local MCP server using the configured URL (do not launch a local Chromium instance).  
 Access the webpage `https://view-dev.tkelevator.com.cn` through the MCP-connected Chromium browser.  
 Verify the webpage returns a 200 status code (successful load) via the MCP session.  
 Take a full-page screenshot within the MCP-managed browser session and save it as `webpage_screenshot.png` in the repository root.  
